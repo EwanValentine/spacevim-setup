@@ -2,14 +2,17 @@ execute 'source' fnamemodify(expand('<sfile>'), ':h').'/config/main.vim'
 
 let g:python_host_prog = '/Users/ewanvalentine/.pyenv/versions/neovim2/bin/python'
 let g:python3_host_prog = '/Users/ewanvalentine/.pyenv/versions/neovim3/bin/python'
--
+
+let g:spacevim_colorscheme = 'Atom'
+
+let g:mapleader = ' '
+let mapleader = ' '
+
 " Spacing
 autocmd FileType * set tabstop=2|set shiftwidth=2|set expandtab
 autocmd FileType php set tabstop=4|set shiftwidth=4|set expandtab
 autocmd FileType python set tabstop=4|set shiftwidth=4|set expandtab
 autocmd FileType go set tabstop=4|set shiftwidth=4|set expandtab
-
-let g:deoplete#enable_at_startup=1
 
 " Misc
 set nohlsearch
