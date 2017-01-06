@@ -8,6 +8,12 @@ let g:spacevim_colorscheme = 'Atom'
 let g:mapleader = ' '
 let mapleader = ' '
 
+" Multi-line Default mapping
+let g:multi_cursor_next_key='<C-n>'
+let g:multi_cursor_prev_key='<C-p>'
+let g:multi_cursor_skip_key='<C-x>'
+let g:multi_cursor_quit_key='<Esc>'
+
 " Spacing
 autocmd FileType * set tabstop=2|set shiftwidth=2|set expandtab
 autocmd FileType php set tabstop=4|set shiftwidth=4|set expandtab
